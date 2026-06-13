@@ -1,0 +1,257 @@
+body{
+    font-family: Arial;
+    margin: 0;
+    background: #f5f5f5;
+}
+
+header{
+    background: white;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1{
+    font-size: 35px;
+}
+
+.search{
+    padding:10px;
+    width:250px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 80px;
+    background: white;
+}
+
+.text{
+    width: 45%;
+}
+.text h2{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.text p{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+button{
+    background: black;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.button:hover {
+    opacity: 0.8;
+}
+.image img{
+    width: 450px;
+    border-radius: 20px;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    padding: 50px;
+    justify-content: center;
+}
+
+.discount{
+    background:red;
+    color:white;
+    padding:5px 10px;
+    border-radius:5px;
+}
+
+.card{
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+.card img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.card:hover{
+    transform: translateY(-8px);
+}
+.card h3{
+    margin-top: 15px;
+}
+.card p{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.categories{
+    background: white;
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.categories h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.category-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.category-container a{
+    text-decoration: none;
+}
+.category{
+    background: #f5e3e3;
+    padding: 20px 35px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.category:hover{
+    background: #e7caca;
+    transform: translateY(-5px);
+}
+
+
+.sale{
+    background: #f5dada;
+    text-align: center;
+    padding: 80px 20px;
+    margin: 50px 0;
+}
+
+.sale h1{
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.sale h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.sale button{
+    background: black;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.sale button:hover{
+    opacity: 0.8;
+}
+
+.newsletter{
+    background: linear-gradient(135deg, #f8e7e7, #ffffff);
+    border-radius: 20px;
+    width: 80%;
+    margin: 50px auto;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.newsletter h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.newsletter input{
+    width: 300px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.newsletter button{
+    background: black;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newsletter button:hover{
+    opacity: 0.8;
+}
+footer{
+    background: black;
+    color: white;
+    padding: 40px;
+    margin-top: 40px;
+}
+.copyright{
+    text-align:center;
+    margin-top:20px;
+}
+.content{
+    text-align: center;
+}
+.content h2{
+    margin-bottom: 10px;
+}
+.links{
+    margin-top: 15px;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.gallery{
+    padding: 50px 5%;
+    text-align: center;
+}
+
+.gallery h2{
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+.gallery-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.gallery-container img{
+    width: 80%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.gallery-container img:hover{
+    transform: scale(1.03);
+}

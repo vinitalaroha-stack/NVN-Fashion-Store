@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NVN Fashion Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>NVN Store</h1>
+        <nav>
+        <input type="text" placeholder="Search for products..." class="search">
+        <a href="#">Home</a>
+        <a href="#">Collection</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">❤️</a>
+        <a href="#">🛒<span id="cartcount">0</span></a>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="text">
+            <h2>Discover Your Style Today</h2>
+            <p>New Collection 2026</p>
+            <button>Shop Now</button>
+        </div>
+        <div class="image">
+            <img src="images/model.jpg">
+        </div>
+    </section>
+    <section class="categories">
+    <h2>Shop By Category</h2>
+
+    <div class="category-container">
+        <div class="category"><a href="#">Dress</a></div>
+        <div class="category"><a href="#">Jeans</a></div>
+        <div class="category"><a href="#">Kurtis</a></div>
+        <div class="category"><a href="#">Saree</a></div>
+        <div class="category"><a href="#">chatpate tops</a></div>
+    </div>
+</section>
+    
+    <section class="products">
+        <div class="card">
+            <span class="discount">30% OFF</span>
+            <img src="images/dress1.jpg">
+            <h3>Long dress</h3>
+            <p>⭐⭐⭐⭐⭐</p>
+            <p>4.8 ★ (120 Reviews)</p>
+            <p>₹899</p>
+            <button onclick="addToCart()">Add to cart</button>
+        </div>
+        <div class="card">
+            <img src="images/dress2.jpg">
+            <h3>Co-set</h3>
+            <p>⭐⭐⭐⭐⭐</p>
+            <p>4.0 ★ (150 Reviews)</p>
+            <p>₹799</p>
+            <button onclick="addToCart()">Add to cart</button>
+        </div>
+        <div class="card">
+            <img src="images/dress3.jpg">
+            <h3>Winter Jacket</h3>
+            <P>⭐⭐⭐⭐☆</P>
+            <p>4.0 ★ (150 Reviews)</p>
+            <p>₹1599</p>
+            <button onclick="addToCart()">Add to cart</button>
+        </div>
+        <div class="card">
+            <img src="images/dress4.jpg">
+            <h3>Kurtis</h3>
+            <p>⭐⭐⭐⭐☆</p>
+            <p>4.0 ★ (150 Reviews)</p>
+            <p>₹499</p>
+            <button onclick="addToCart()">Add to cart</button>
+        </div>
+        <div class="card">
+            <img src="images/dress5.jpg">
+            <h3>Indian dress</h3>
+            <p>⭐⭐⭐⭐⭐</p>
+            <p>4.0 ★ (180 Reviews)</p>
+            <p>₹599</p>
+            <button onclick="addToCart()">Add to cart</button>
+        </div>
+        <div class="card">
+            <img src="images/dress6.jpg">
+            <h3>Summer dress</h3>
+            <p>⭐⭐⭐⭐⭐</p>
+            <p>4.3 ★ (100 Reviews)</p>
+            <p>₹999</p>
+            <button onclick="addToCart()">Add to cart</button>
+        </div>
+        <div class="card">
+            <img src="images/dress7.jpg">
+            <h3>Party dresses</h3>
+            <p>⭐⭐⭐☆☆</p>
+            <p>4.0 ★ (150 Reviews)</p>
+            <p>₹1999</p>
+            <button onclick="addToCart()">Add to cart</button>
+        </div>
+        <div class="card">
+            <img src="images/dress8.jpg">
+            <h3>Saree</h3>
+            <p>⭐⭐⭐⭐☆</p>
+            <p>4.9 ★ (200 Reviews)</p>
+            <p><del>₹1999</del> ₹1399</p>
+            <button onclick="addToCart()">Add to cart</button>
+        </div>
+    </section>
+    <section class="sale">
+        <h1>Spring Collection</h1>
+        <h2>30% OFF</h2>
+        <button>Shop Now</button>
+    </section>
+    <section class="gallery">
+    <h2>Fashion Gallery</h2>
+
+    <div class="gallery-container">
+        <img src="images/dress9.jpg" alt="Fashion 1">
+        <img src="images/dress10.jpg" alt="Fashion 2">
+        <img src="images/dress11.jpg" alt="Fashion 3">
+        <img src="images/dress12.jpg" alt="Fashion 4">
+        <img src="images/dress13.jpg" alt="Fashion 5">
+        <img src="images/dress15.jpg" alt="Fashion 6">
+        <img src="images/dress16.jpg" alt="Fashion 7">
+        <img src="images/dress17.jpg" alt="Fashion 8">
+    </div>
+</section>
+    <section class="newsletter">
+    <h2>Get Fashion Updates</h2>
+    <input type="email" placeholder="Enter Email">
+    <button>Subscribe</button>
+    </section>
+    <footer>
+        <div class="contact">
+            <h2>Clothing</h2>
+            <p>NVN Fashion Store © 2026</p>
+            <div class="links">
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">contact</a>
+                <a href="#">YouTube</a>
+                <a href="#">Pinterest</a>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright"> © 2026 NVN Fashion Store | All Rights Reserved</p>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
